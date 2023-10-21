@@ -1,12 +1,12 @@
-import React from "react";
-import styles from "./page.module.css";
-import Image from "next/image";
-import Button from "@/components/Button/Button";
+import React from 'react'
+import styles from './page.module.css'
+import Image from 'next/image'
+import Button from '@/components/Button/Button'
 
 export const metadata = {
-  title: "Lama Dev Contact Information",
-  description: "This is Contact Page",
-};
+  title: 'Lama Dev Contact Information',
+  description: 'This is Contact Page',
+}
 
 const Contact = () => {
   return (
@@ -30,11 +30,11 @@ const Contact = () => {
             cols="30"
             rows="10"
           ></textarea>
-          <Button url="#" text="Send"/>
+          <Button url="#" text="Send" />
         </form>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

@@ -5,6 +5,7 @@
   ],
   "rules": {
     "prefer-const": "off",
-    "no-unused-vars": "error"
+    "no-unused-vars": "error",
+    "indent": ["error", 2]
   }
 }
